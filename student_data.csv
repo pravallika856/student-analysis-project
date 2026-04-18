@@ -1,0 +1,506 @@
+student_id,gender,year,branch,favorite_subject,career_goal,cgpa,hobby
+1,Male,1,ECE,Communication,Signal Processing,7.93,Reading
+2,Male,3,AI&ML,Computer Vision,AI Researcher,9.13,Drawing
+3,Male,1,AI&ML,Deep Learning,Computer Vision Engineer,7.67,Drawing
+4,Male,3,ECE,Signals & Systems,Communication Engineer,6.67,Music
+5,Female,3,IT,Cloud Computing,Network Engineer,9.78,Coding
+6,Female,4,ECE,Signals & Systems,Communication Engineer,7.85,Gaming
+7,Female,4,ECE,Communication,Embedded Systems Engineer,6.96,Travelling
+8,Female,2,CSE,Data Structures,Product Manager,9.28,Reading
+9,Male,3,ECE,Signals & Systems,Communication Engineer,7.7,Photography
+10,Male,3,ECE,Communication,Hardware Engineer,8.29,Reading
+11,Male,4,AI&ML,Computer Vision,Computer Vision Engineer,7.39,Sports
+12,Female,3,IT,Cybersecurity,Cybersecurity Analyst,6.71,Coding
+13,Female,2,IT,DBMS,Cloud Engineer,6.89,Travelling
+14,Female,4,CSE,Machine Learning,Full Stack Developer,7.55,Music
+15,Male,1,ECE,Communication,Signal Processing,7.83,Travelling
+16,Male,1,IT,Networking,Cloud Engineer,8.91,Music
+17,Female,3,IT,Cybersecurity,Data Analyst,8.37,Travelling
+18,Male,4,CSE,Machine Learning,Full Stack Developer,7.82,Coding
+19,Male,4,AI&ML,Machine Learning,NLP Engineer,8.29,Music
+20,Female,2,ECE,VLSI,VLSI Engineer,7.78,Travelling
+21,Male,2,IT,Web Development,Network Engineer,6.45,Drawing
+22,Male,1,CSE,DBMS,Data Scientist,6.98,Music
+23,Male,3,CSE,Data Structures,Product Manager,8.01,Music
+24,Male,3,IT,DBMS,Full Stack Developer,7.54,Photography
+25,Male,4,ECE,Communication,VLSI Engineer,8.79,Sports
+26,Male,3,CSE,Operating Systems,Full Stack Developer,8.65,Photography
+27,Female,1,ECE,VLSI,Embedded Systems Engineer,8.03,Photography
+28,Male,2,ECE,Communication,Signal Processing,9.47,Music
+29,Male,3,IT,Cloud Computing,Network Engineer,6.7,Gaming
+30,Male,4,AI&ML,NLP,Computer Vision Engineer,8.46,Gaming
+31,Male,4,AI&ML,NLP,Computer Vision Engineer,6.82,Gaming
+32,Male,3,AI&ML,NLP,Data Scientist,8.19,Gaming
+33,Male,4,AI&ML,Machine Learning,Computer Vision Engineer,8.27,Coding
+34,Female,3,AI&ML,Deep Learning,ML Engineer,,Reading
+35,Male,3,CSE,Data Structures,Product Manager,7.2,Music
+36,Male,2,IT,Web Development,Network Engineer,6.64,Coding
+37,Male,3,CSE,Machine Learning,Full Stack Developer,8.02,Reading
+38,Female,2,IT,Web Development,Data Analyst,8.3,Music
+39,Female,2,CSE,Data Structures,Software Engineer,7.79,Drawing
+40,Female,4,CSE,Machine Learning,Software Engineer,7.95,Drawing
+41,Male,3,AI&ML,Statistics,NLP Engineer,7.64,Coding
+42,Male,2,AI&ML,Deep Learning,AI Researcher,7.49,Photography
+43,Female,3,IT,Networking,Cybersecurity Analyst,6.73,Photography
+44,Male,2,ECE,Communication,Embedded Systems Engineer,6.44,Travelling
+45,Male,2,IT,Cybersecurity,Cloud Engineer,7.13,Coding
+46,Male,2,CSE,DBMS,Software Engineer,7.7,Reading
+47,Female,2,IT,Web Development,Network Engineer,5.91,Photography
+48,Male,3,IT,Cybersecurity,Data Analyst,7.96,Photography
+49,Male,1,IT,Cybersecurity,Data Analyst,7.51,Coding
+50,Male,1,CSE,Machine Learning,Software Engineer,7.41,Music
+51,Male,3,CSE,Algorithms,Software Engineer,6.79,Photography
+52,Female,1,ECE,Communication,Signal Processing,8.33,Music
+53,Male,4,CSE,Machine Learning,Product Manager,,Music
+54,Male,2,AI&ML,Computer Vision,Data Scientist,8.68,Drawing
+55,Female,3,IT,DBMS,Network Engineer,7.49,Reading
+56,Male,3,ECE,Communication,Communication Engineer,7.08,Photography
+57,Male,4,CSE,DBMS,Product Manager,6.28,Music
+58,Female,4,AI&ML,Computer Vision,AI Researcher,9.06,Gaming
+59,Female,2,CSE,Machine Learning,Product Manager,8.02,Gaming
+60,Male,3,IT,Networking,Cybersecurity Analyst,7.07,Gaming
+61,Male,1,ECE,Embedded Systems,Hardware Engineer,7.42,Sports
+62,Male,2,IT,Cloud Computing,Full Stack Developer,7.17,Coding
+63,Male,2,IT,DBMS,Network Engineer,8.92,Gaming
+64,Male,1,ECE,VLSI,VLSI Engineer,7.1,Drawing
+65,Female,4,CSE,Machine Learning,Software Engineer,7.47,Music
+66,Female,3,IT,DBMS,Data Analyst,8.44,Coding
+67,Male,4,CSE,Machine Learning,Software Engineer,9.25,Travelling
+68,Male,4,IT,DBMS,Data Analyst,7.94,Photography
+69,Male,4,IT,DBMS,Data Analyst,6.37,Music
+70,Male,2,IT,Cybersecurity,Network Engineer,6.4,Travelling
+71,Male,3,IT,Networking,Cloud Engineer,6.98,Sports
+72,Female,3,CSE,Operating Systems,DevOps Engineer,6.3,Travelling
+73,Male,4,IT,Web Development,Network Engineer,8.19,Drawing
+74,Female,3,AI&ML,Statistics,NLP Engineer,7.8,Travelling
+75,Male,2,AI&ML,Statistics,Computer Vision Engineer,8.46,Reading
+76,Female,4,CSE,Data Structures,DevOps Engineer,7.84,Drawing
+77,Male,3,CSE,Operating Systems,Data Scientist,9.55,Photography
+78,Male,4,ECE,VLSI,Embedded Systems Engineer,6.77,Music
+79,Male,1,AI&ML,Machine Learning,Data Scientist,8.81,Music
+80,Female,4,CSE,Algorithms,Full Stack Developer,7.34,Photography
+81,Female,2,CSE,Algorithms,Full Stack Developer,8.74,Photography
+82,Female,1,IT,Web Development,Cybersecurity Analyst,7.2,Coding
+83,Female,4,CSE,Data Structures,DevOps Engineer,7.8,Sports
+84,Male,2,ECE,Communication,VLSI Engineer,7.54,Drawing
+85,Male,4,CSE,Data Structures,Software Engineer,5.02,Coding
+86,Female,3,IT,DBMS,Cybersecurity Analyst,7.37,Gaming
+87,Male,1,ECE,Communication,Hardware Engineer,8.53,Travelling
+88,Female,1,ECE,Signals & Systems,Embedded Systems Engineer,7.97,Drawing
+89,Male,3,IT,Web Development,Full Stack Developer,7.19,Travelling
+90,Female,1,IT,Networking,Full Stack Developer,8.73,Reading
+91,Male,3,CSE,Machine Learning,Data Scientist,8.7,Photography
+92,Female,2,ECE,Embedded Systems,Communication Engineer,6.2,Photography
+93,Male,1,AI&ML,NLP,NLP Engineer,8.16,Coding
+94,Male,3,CSE,Machine Learning,DevOps Engineer,8.08,Drawing
+95,Male,3,CSE,Algorithms,Software Engineer,9.37,Gaming
+96,Male,4,IT,Cloud Computing,Data Analyst,7.63,Gaming
+97,Male,4,IT,DBMS,Network Engineer,7.13,Drawing
+98,Male,2,ECE,Signals & Systems,Hardware Engineer,6.39,Reading
+99,Male,1,IT,Cloud Computing,Network Engineer,7.49,Coding
+100,Male,2,IT,Cybersecurity,Cloud Engineer,6.79,Travelling
+101,Male,3,ECE,VLSI,VLSI Engineer,7.7,Music
+102,Female,2,ECE,VLSI,Embedded Systems Engineer,8.32,Travelling
+103,Male,3,CSE,Data Structures,DevOps Engineer,8.92,Reading
+104,Male,1,ECE,Digital Electronics,VLSI Engineer,6.32,Sports
+105,Female,4,CSE,Operating Systems,Full Stack Developer,7.94,Coding
+106,Female,3,CSE,DBMS,Software Engineer,8.53,Reading
+107,Male,3,CSE,Operating Systems,DevOps Engineer,7.35,Coding
+108,Male,3,ECE,Digital Electronics,Embedded Systems Engineer,6.6,Drawing
+109,Male,3,CSE,Operating Systems,DevOps Engineer,7.28,Reading
+110,Female,2,ECE,Signals & Systems,Hardware Engineer,7.54,Photography
+111,Female,1,IT,Web Development,Full Stack Developer,6.99,Travelling
+112,Male,3,AI&ML,Computer Vision,Computer Vision Engineer,9.93,Reading
+113,Male,4,AI&ML,Computer Vision,AI Researcher,8.16,Drawing
+114,Female,1,AI&ML,Statistics,Computer Vision Engineer,7.98,Drawing
+115,Female,2,CSE,Algorithms,Product Manager,8.46,Reading
+116,Male,2,ECE,Embedded Systems,Hardware Engineer,5.96,Drawing
+117,Female,3,IT,Web Development,Full Stack Developer,8.18,Sports
+118,Female,1,CSE,DBMS,Full Stack Developer,5.93,Photography
+119,Male,2,AI&ML,Machine Learning,Computer Vision Engineer,8.46,Sports
+120,Female,3,CSE,Data Structures,Product Manager,9.07,Drawing
+121,Female,1,IT,DBMS,Network Engineer,9.52,Travelling
+122,Male,3,CSE,Operating Systems,DevOps Engineer,7.05,Reading
+123,Female,3,IT,Networking,Cybersecurity Analyst,8.6,Drawing
+124,Female,1,ECE,Signals & Systems,Signal Processing,7.82,Music
+125,Female,4,CSE,Data Structures,Product Manager,7.1,Photography
+126,Male,1,IT,Networking,Full Stack Developer,7.77,Music
+127,Male,1,CSE,Data Structures,Full Stack Developer,7.01,Sports
+128,Female,2,AI&ML,Machine Learning,AI Researcher,8.01,Photography
+129,Male,3,IT,Networking,Network Engineer,8.0,Coding
+130,Female,3,AI&ML,Deep Learning,ML Engineer,9.09,Coding
+131,Male,1,CSE,Operating Systems,Full Stack Developer,7.6,Travelling
+132,Male,2,ECE,Communication,Signal Processing,7.25,Drawing
+133,Male,4,ECE,Digital Electronics,Communication Engineer,9.55,Drawing
+134,Female,2,ECE,Digital Electronics,Hardware Engineer,6.03,Drawing
+135,Female,2,AI&ML,Statistics,Data Scientist,8.08,Photography
+136,Male,2,IT,Networking,Cloud Engineer,7.14,Drawing
+137,Male,2,IT,Cybersecurity,Full Stack Developer,7.12,Coding
+138,Female,4,IT,Cybersecurity,Full Stack Developer,7.41,Travelling
+139,Male,3,AI&ML,Machine Learning,Data Scientist,7.57,Coding
+140,Female,2,ECE,Communication,Signal Processing,6.84,Coding
+141,Male,1,CSE,DBMS,Product Manager,6.45,Reading
+142,Female,2,CSE,DBMS,DevOps Engineer,7.08,Coding
+143,Female,2,AI&ML,Statistics,Computer Vision Engineer,8.85,Coding
+144,Male,4,IT,Web Development,Cloud Engineer,7.17,Sports
+145,Female,2,IT,Web Development,Cloud Engineer,7.84,Travelling
+146,Male,2,CSE,Data Structures,Data Scientist,7.83,Sports
+147,Female,4,IT,Cybersecurity,Cloud Engineer,6.5,Travelling
+148,Male,3,ECE,Signals & Systems,Communication Engineer,7.59,Gaming
+149,Female,3,IT,Networking,Network Engineer,7.82,Music
+150,Male,3,IT,Web Development,Cloud Engineer,8.44,Sports
+151,Female,2,CSE,Operating Systems,Full Stack Developer,7.62,Music
+152,Male,1,IT,Networking,Data Analyst,8.63,Photography
+153,Male,3,CSE,DBMS,Product Manager,7.8,Sports
+154,Female,3,ECE,Digital Electronics,VLSI Engineer,6.91,Photography
+155,Male,4,IT,Networking,Full Stack Developer,8.2,Sports
+156,Male,4,CSE,Operating Systems,Full Stack Developer,7.35,Sports
+157,Female,4,CSE,Algorithms,Software Engineer,6.74,Drawing
+158,Female,4,IT,Web Development,Data Analyst,7.41,Drawing
+159,Male,3,AI&ML,Computer Vision,AI Researcher,8.71,Drawing
+160,Female,3,CSE,Algorithms,Full Stack Developer,7.91,Travelling
+161,Female,2,CSE,DBMS,Data Scientist,9.55,Drawing
+162,Male,2,CSE,Algorithms,Full Stack Developer,8.07,Sports
+163,Male,2,ECE,Digital Electronics,Communication Engineer,6.91,Reading
+164,Female,1,AI&ML,Deep Learning,AI Researcher,8.88,Reading
+165,Female,4,CSE,Algorithms,Full Stack Developer,7.78,Photography
+166,Female,1,IT,Web Development,Network Engineer,7.13,Sports
+167,Male,4,ECE,Signals & Systems,Communication Engineer,8.1,Photography
+168,Male,4,ECE,Digital Electronics,VLSI Engineer,8.95,Photography
+169,Female,3,IT,DBMS,Cybersecurity Analyst,7.83,Travelling
+170,Male,4,IT,Web Development,Network Engineer,7.64,Music
+171,Male,1,IT,DBMS,Cybersecurity Analyst,6.27,Reading
+172,Female,4,AI&ML,Statistics,NLP Engineer,8.16,Drawing
+173,Male,4,AI&ML,Deep Learning,Data Scientist,7.82,Reading
+174,Female,1,AI&ML,NLP,NLP Engineer,7.22,Photography
+175,Male,4,AI&ML,Statistics,ML Engineer,6.42,Coding
+176,Male,4,AI&ML,Computer Vision,ML Engineer,7.44,Gaming
+177,Male,3,IT,Networking,Network Engineer,6.43,Sports
+178,Female,1,AI&ML,Statistics,Computer Vision Engineer,7.55,Sports
+179,Male,4,AI&ML,Statistics,AI Researcher,,Reading
+180,Male,1,IT,Cloud Computing,Network Engineer,8.49,Gaming
+181,Female,4,ECE,Communication,VLSI Engineer,6.66,Sports
+182,Male,3,CSE,Algorithms,Data Scientist,8.28,Photography
+183,Male,1,CSE,Operating Systems,Data Scientist,7.82,Travelling
+184,Male,3,ECE,Digital Electronics,VLSI Engineer,8.65,Photography
+185,Female,2,ECE,Embedded Systems,Signal Processing,7.72,Photography
+186,Female,3,CSE,Machine Learning,DevOps Engineer,9.06,Drawing
+187,Male,3,CSE,DBMS,Software Engineer,8.4,Drawing
+188,Female,1,CSE,,DevOps Engineer,8.58,Music
+189,Female,3,IT,DBMS,Cybersecurity Analyst,7.22,Photography
+190,Male,3,ECE,Signals & Systems,Hardware Engineer,,Music
+191,Female,3,CSE,Machine Learning,DevOps Engineer,8.47,Travelling
+192,Male,4,CSE,Data Structures,Product Manager,7.4,Photography
+193,Male,2,ECE,Embedded Systems,Communication Engineer,6.13,Coding
+194,Male,3,IT,Networking,Data Analyst,7.01,Coding
+195,Male,3,ECE,VLSI,Signal Processing,7.81,Travelling
+196,Female,4,CSE,Machine Learning,Product Manager,8.17,Sports
+197,Male,3,CSE,Data Structures,Software Engineer,6.66,Gaming
+198,Female,2,CSE,Machine Learning,DevOps Engineer,8.28,Reading
+199,Female,2,ECE,Communication,Embedded Systems Engineer,6.66,Travelling
+200,Female,3,IT,Web Development,Network Engineer,8.98,Drawing
+201,Male,3,IT,Web Development,Full Stack Developer,7.74,Travelling
+202,Male,3,IT,Networking,Cloud Engineer,6.82,Music
+203,Female,2,AI&ML,Machine Learning,NLP Engineer,7.97,Reading
+204,Female,4,IT,Networking,Cloud Engineer,6.98,Travelling
+205,Female,3,CSE,DBMS,Software Engineer,9.25,Photography
+206,Female,3,IT,Cloud Computing,Cybersecurity Analyst,7.9,Music
+207,Male,2,IT,Cloud Computing,Full Stack Developer,7.41,Reading
+208,Male,3,CSE,Machine Learning,Full Stack Developer,6.83,Reading
+209,Male,3,IT,DBMS,Data Analyst,7.58,Reading
+210,Male,2,ECE,Digital Electronics,Signal Processing,9.43,Coding
+211,Male,2,CSE,Data Structures,Product Manager,8.71,Sports
+212,Female,2,AI&ML,Deep Learning,Data Scientist,7.89,Coding
+213,Male,3,IT,Cybersecurity,Cloud Engineer,8.72,Travelling
+214,Male,4,AI&ML,Computer Vision,AI Researcher,8.43,Sports
+215,Male,1,CSE,Algorithms,Product Manager,8.06,Sports
+216,Male,3,ECE,Digital Electronics,Communication Engineer,7.24,Reading
+217,Female,3,ECE,VLSI,Embedded Systems Engineer,9.05,Music
+218,Male,4,CSE,DBMS,Data Scientist,9.03,Sports
+219,Female,3,ECE,VLSI,Signal Processing,6.33,Coding
+220,Female,4,ECE,Digital Electronics,Communication Engineer,6.14,Photography
+221,Male,1,CSE,Machine Learning,Product Manager,7.74,Travelling
+222,Male,1,IT,Cloud Computing,Data Analyst,7.57,Sports
+223,Male,4,IT,Cybersecurity,Cloud Engineer,7.19,Coding
+224,Male,3,IT,Web Development,Cybersecurity Analyst,5.51,Reading
+225,Male,1,CSE,Machine Learning,Product Manager,7.05,Travelling
+226,Male,3,IT,DBMS,Data Analyst,8.15,Travelling
+227,Female,4,AI&ML,Deep Learning,AI Researcher,8.08,Gaming
+228,Female,3,IT,Cloud Computing,Full Stack Developer,9.3,Drawing
+229,Female,1,AI&ML,Statistics,NLP Engineer,6.71,Reading
+230,Female,1,AI&ML,Machine Learning,Data Scientist,8.81,Photography
+231,Female,4,CSE,DBMS,Product Manager,8.78,Music
+232,Female,1,IT,Web Development,Cybersecurity Analyst,8.19,Sports
+233,Female,2,ECE,Digital Electronics,Hardware Engineer,6.51,Travelling
+234,Male,2,ECE,Digital Electronics,VLSI Engineer,6.2,Photography
+235,Female,3,CSE,DBMS,Data Scientist,7.8,Sports
+236,Male,1,ECE,Communication,Hardware Engineer,8.96,Reading
+237,Female,3,ECE,VLSI,Communication Engineer,8.75,Drawing
+238,Female,1,ECE,Communication,Signal Processing,8.01,Travelling
+239,Male,1,AI&ML,Computer Vision,AI Researcher,7.19,Sports
+240,Male,4,ECE,Communication,Communication Engineer,7.07,Drawing
+241,Male,1,ECE,Signals & Systems,Communication Engineer,6.85,Sports
+242,Male,3,CSE,Operating Systems,Data Scientist,9.05,Travelling
+243,Male,3,CSE,Algorithms,DevOps Engineer,8.92,Gaming
+244,Female,4,CSE,Machine Learning,DevOps Engineer,7.74,Drawing
+245,Male,3,IT,Networking,Full Stack Developer,6.54,Sports
+246,Female,1,AI&ML,Deep Learning,Data Scientist,7.58,Reading
+247,Male,1,ECE,Communication,VLSI Engineer,8.07,Travelling
+248,Male,2,ECE,Embedded Systems,Communication Engineer,7.87,Travelling
+249,Female,3,ECE,Communication,VLSI Engineer,7.78,Coding
+250,Male,2,ECE,Communication,VLSI Engineer,7.5,Gaming
+251,Male,1,AI&ML,Computer Vision,ML Engineer,8.61,Sports
+252,Male,2,AI&ML,NLP,Data Scientist,7.89,Photography
+253,Male,3,IT,DBMS,Full Stack Developer,8.02,Music
+254,Male,3,AI&ML,Deep Learning,AI Researcher,8.82,Drawing
+255,Male,2,CSE,Algorithms,Product Manager,8.36,Reading
+256,Male,3,IT,Networking,Network Engineer,9.25,Sports
+257,Male,1,CSE,Algorithms,Software Engineer,5.93,Travelling
+258,Female,1,AI&ML,Computer Vision,Data Scientist,7.73,Gaming
+259,Male,1,CSE,Data Structures,DevOps Engineer,8.2,Reading
+260,Male,4,CSE,Machine Learning,Data Scientist,8.27,Gaming
+261,Female,1,IT,Cloud Computing,Cybersecurity Analyst,6.66,Music
+262,Male,4,IT,Cybersecurity,Data Analyst,5.77,Music
+263,Female,1,CSE,Algorithms,DevOps Engineer,8.54,Drawing
+264,Male,3,CSE,Data Structures,DevOps Engineer,7.57,Coding
+265,Male,2,ECE,VLSI,Embedded Systems Engineer,8.48,Gaming
+266,Male,2,IT,Web Development,Data Analyst,8.0,Music
+267,Female,4,CSE,Machine Learning,Data Scientist,8.21,Photography
+268,Female,2,AI&ML,Statistics,Computer Vision Engineer,8.14,Travelling
+269,Male,1,IT,Cybersecurity,Cybersecurity Analyst,8.57,Reading
+270,Male,1,AI&ML,,Data Scientist,6.59,Travelling
+271,Female,3,CSE,DBMS,Product Manager,9.02,Photography
+272,Female,3,ECE,VLSI,Communication Engineer,8.71,Music
+273,Male,2,IT,DBMS,Cybersecurity Analyst,6.61,Drawing
+274,Male,2,AI&ML,Deep Learning,AI Researcher,6.75,Sports
+275,Female,3,IT,Networking,Data Analyst,6.76,Music
+276,Male,2,CSE,Machine Learning,Data Scientist,7.78,Drawing
+277,Female,4,IT,Cloud Computing,Full Stack Developer,8.46,Reading
+278,Female,2,AI&ML,Machine Learning,Data Scientist,8.34,Gaming
+279,Male,3,CSE,Algorithms,Data Scientist,9.53,Reading
+280,Male,1,CSE,Data Structures,Product Manager,7.32,Travelling
+281,Male,1,IT,Web Development,Data Analyst,8.27,Coding
+282,Male,2,AI&ML,Statistics,ML Engineer,9.02,Travelling
+283,Female,4,IT,Cloud Computing,Network Engineer,6.68,Sports
+284,Female,2,CSE,Operating Systems,Software Engineer,6.38,Travelling
+285,Male,4,AI&ML,Deep Learning,AI Researcher,8.31,Drawing
+286,Male,3,ECE,Signals & Systems,Embedded Systems Engineer,6.67,Sports
+287,Female,1,CSE,Machine Learning,DevOps Engineer,7.83,Photography
+288,Male,3,ECE,Signals & Systems,VLSI Engineer,8.25,Gaming
+289,Male,1,ECE,Signals & Systems,Communication Engineer,7.06,Photography
+290,Female,2,AI&ML,Deep Learning,Data Scientist,7.85,Music
+291,Female,4,IT,DBMS,Network Engineer,7.48,Drawing
+292,Female,1,CSE,Algorithms,Data Scientist,7.51,Sports
+293,Female,3,AI&ML,NLP,Computer Vision Engineer,8.33,Sports
+294,Female,2,CSE,Machine Learning,Product Manager,9.16,Travelling
+295,Male,2,CSE,Algorithms,Software Engineer,8.23,Music
+296,Female,4,AI&ML,NLP,Data Scientist,8.36,Reading
+297,Male,4,IT,Networking,Full Stack Developer,8.18,Music
+298,Female,3,CSE,Data Structures,Software Engineer,6.03,Reading
+299,Female,4,IT,Cloud Computing,Data Analyst,7.36,Music
+300,Female,1,IT,DBMS,Data Analyst,6.8,Drawing
+301,Female,1,IT,Cybersecurity,Network Engineer,7.13,Drawing
+302,Female,3,CSE,Operating Systems,Product Manager,9.85,Photography
+303,Male,2,AI&ML,Computer Vision,Computer Vision Engineer,8.92,Coding
+304,Male,2,IT,DBMS,Network Engineer,6.39,Photography
+305,Female,4,CSE,Data Structures,Software Engineer,7.73,Coding
+306,Female,3,IT,DBMS,Full Stack Developer,7.5,Gaming
+307,Male,1,CSE,Operating Systems,Full Stack Developer,8.04,Reading
+308,Male,4,CSE,Machine Learning,Software Engineer,6.7,Coding
+309,Female,3,CSE,Algorithms,Full Stack Developer,7.25,Music
+310,Female,3,ECE,Signals & Systems,Communication Engineer,5.5,Drawing
+311,Male,2,ECE,Digital Electronics,Communication Engineer,6.96,Music
+312,Male,1,AI&ML,Machine Learning,Computer Vision Engineer,8.45,Sports
+313,Male,4,CSE,Operating Systems,Full Stack Developer,8.51,Reading
+314,Male,1,ECE,Communication,Communication Engineer,6.88,Gaming
+315,Female,1,CSE,Algorithms,Full Stack Developer,,Gaming
+316,Female,4,CSE,DBMS,Product Manager,6.9,Photography
+317,Female,1,CSE,Operating Systems,Software Engineer,8.13,Sports
+318,Female,4,IT,Cloud Computing,Cybersecurity Analyst,7.6,Gaming
+319,Female,3,CSE,Data Structures,Data Scientist,7.31,Gaming
+320,Male,3,ECE,Communication,Hardware Engineer,8.97,Reading
+321,Male,1,IT,Web Development,Full Stack Developer,6.46,Reading
+322,Male,2,AI&ML,Machine Learning,ML Engineer,8.51,Reading
+323,Female,2,IT,Cybersecurity,Network Engineer,7.66,Coding
+324,Female,4,CSE,Operating Systems,Data Scientist,7.78,Travelling
+325,Female,4,CSE,Machine Learning,Product Manager,7.51,Gaming
+326,Male,4,IT,Networking,Full Stack Developer,8.03,Photography
+327,Male,1,ECE,VLSI,Signal Processing,7.77,Gaming
+328,Male,2,ECE,Embedded Systems,Communication Engineer,6.82,Reading
+329,Female,3,IT,DBMS,Data Analyst,8.49,Travelling
+330,Male,4,CSE,Operating Systems,Product Manager,6.7,Reading
+331,Female,4,AI&ML,Deep Learning,AI Researcher,7.69,Sports
+332,Female,2,ECE,Embedded Systems,VLSI Engineer,7.04,Music
+333,Female,4,AI&ML,Statistics,NLP Engineer,8.96,Music
+334,Male,1,IT,,Data Analyst,8.82,Gaming
+335,Female,2,AI&ML,Deep Learning,NLP Engineer,8.46,Drawing
+336,Male,3,ECE,VLSI,Communication Engineer,7.29,Gaming
+337,Male,2,AI&ML,Computer Vision,ML Engineer,7.76,Reading
+338,Male,3,CSE,Data Structures,Full Stack Developer,7.56,Travelling
+339,Female,1,ECE,Digital Electronics,Hardware Engineer,7.89,Coding
+340,Male,3,IT,Networking,Cybersecurity Analyst,7.93,Photography
+341,Male,2,CSE,Operating Systems,Product Manager,7.62,Reading
+342,Male,4,CSE,DBMS,Software Engineer,7.32,Sports
+343,Female,4,AI&ML,Machine Learning,Data Scientist,8.58,Reading
+344,Male,3,CSE,DBMS,Full Stack Developer,8.69,Reading
+345,Male,4,AI&ML,NLP,AI Researcher,7.7,Photography
+346,Female,4,CSE,Data Structures,Full Stack Developer,7.73,Drawing
+347,Female,2,AI&ML,Computer Vision,NLP Engineer,8.77,Music
+348,Male,2,CSE,Machine Learning,DevOps Engineer,7.38,Music
+349,Male,4,CSE,Operating Systems,Software Engineer,8.4,Gaming
+350,Male,4,AI&ML,Machine Learning,NLP Engineer,7.44,Drawing
+351,Female,4,IT,DBMS,Full Stack Developer,7.13,Coding
+352,Female,1,ECE,Communication,Communication Engineer,5.98,Sports
+353,Female,1,CSE,Machine Learning,Software Engineer,8.58,Photography
+354,Female,3,IT,Cybersecurity,Network Engineer,8.03,Drawing
+355,Female,3,AI&ML,Statistics,NLP Engineer,9.02,Sports
+356,Female,2,CSE,,Product Manager,9.2,Sports
+357,Female,1,CSE,DBMS,Software Engineer,9.63,Drawing
+358,Male,3,CSE,Algorithms,Full Stack Developer,7.89,Photography
+359,Male,2,ECE,Communication,VLSI Engineer,6.99,Photography
+360,Female,4,ECE,Digital Electronics,VLSI Engineer,9.55,Drawing
+361,Male,2,CSE,Machine Learning,DevOps Engineer,8.18,Coding
+362,Male,2,AI&ML,Machine Learning,Data Scientist,10.0,Gaming
+363,Male,2,ECE,Digital Electronics,Hardware Engineer,7.24,Coding
+364,Female,3,ECE,VLSI,Signal Processing,7.6,Music
+365,Female,1,CSE,Machine Learning,Software Engineer,7.41,Sports
+366,Male,3,AI&ML,Deep Learning,ML Engineer,8.21,Music
+367,Male,2,ECE,Embedded Systems,Communication Engineer,8.33,Music
+368,Male,3,AI&ML,Statistics,Data Scientist,8.19,Reading
+369,Male,3,CSE,Algorithms,Full Stack Developer,7.97,Music
+370,Female,4,IT,DBMS,Cybersecurity Analyst,8.25,Photography
+371,Male,1,IT,Cybersecurity,Cybersecurity Analyst,6.89,Travelling
+372,Female,3,IT,Web Development,Full Stack Developer,7.51,Drawing
+373,Female,2,ECE,Embedded Systems,Hardware Engineer,6.65,Reading
+374,Female,2,ECE,Embedded Systems,Communication Engineer,6.51,Music
+375,Male,3,ECE,Signals & Systems,Signal Processing,8.93,Gaming
+376,Female,4,CSE,Operating Systems,DevOps Engineer,8.42,Photography
+377,Male,3,ECE,Signals & Systems,Communication Engineer,8.65,Coding
+378,Female,3,IT,Networking,Network Engineer,7.18,Photography
+379,Male,1,IT,DBMS,Cloud Engineer,7.2,Coding
+380,Male,2,CSE,DBMS,Full Stack Developer,7.79,Reading
+381,Male,4,CSE,Machine Learning,Data Scientist,,Travelling
+382,Female,2,ECE,Communication,Hardware Engineer,7.71,Coding
+383,Male,2,ECE,VLSI,Hardware Engineer,7.66,Reading
+384,Male,1,AI&ML,NLP,ML Engineer,7.21,Reading
+385,Male,3,CSE,Operating Systems,DevOps Engineer,7.85,Coding
+386,Male,4,AI&ML,Statistics,ML Engineer,8.47,Coding
+387,Male,1,IT,Networking,Full Stack Developer,7.44,Travelling
+388,Female,4,ECE,VLSI,Signal Processing,,Travelling
+389,Male,4,IT,DBMS,Network Engineer,7.02,Photography
+390,Male,1,AI&ML,Machine Learning,AI Researcher,8.16,Coding
+391,Male,3,IT,Networking,Network Engineer,6.83,Photography
+392,Female,4,AI&ML,NLP,ML Engineer,7.61,Gaming
+393,Male,4,ECE,Embedded Systems,Communication Engineer,7.4,Travelling
+394,Male,2,ECE,Digital Electronics,VLSI Engineer,8.75,Photography
+395,Female,3,CSE,Machine Learning,DevOps Engineer,8.51,Drawing
+396,Female,2,IT,Networking,Data Analyst,8.27,Photography
+397,Male,2,IT,Web Development,Cybersecurity Analyst,7.14,Travelling
+398,Female,4,IT,DBMS,Data Analyst,8.33,Photography
+399,Male,1,AI&ML,Machine Learning,Computer Vision Engineer,7.64,Travelling
+400,Male,4,ECE,Embedded Systems,Signal Processing,7.78,Photography
+401,Female,1,AI&ML,Deep Learning,NLP Engineer,8.12,Photography
+402,Male,2,AI&ML,Computer Vision,Computer Vision Engineer,8.56,Reading
+403,Male,2,CSE,Operating Systems,Data Scientist,8.5,Drawing
+404,Female,4,CSE,Machine Learning,Software Engineer,7.3,Gaming
+405,Female,4,IT,DBMS,Cybersecurity Analyst,6.87,Gaming
+406,Female,2,ECE,VLSI,Communication Engineer,7.8,Music
+407,Male,4,IT,Cybersecurity,Data Analyst,7.8,Travelling
+408,Female,3,IT,Cybersecurity,Cloud Engineer,8.76,Reading
+409,Female,3,CSE,Data Structures,Software Engineer,7.8,Reading
+410,Male,3,AI&ML,Deep Learning,Data Scientist,8.09,Drawing
+411,Female,3,ECE,Embedded Systems,VLSI Engineer,6.29,Coding
+412,Female,2,AI&ML,NLP,NLP Engineer,7.49,Coding
+413,Female,4,AI&ML,Statistics,Data Scientist,8.05,Gaming
+414,Female,4,IT,DBMS,Data Analyst,9.28,Coding
+415,Male,3,IT,Web Development,Network Engineer,6.7,Sports
+416,Female,3,AI&ML,Machine Learning,NLP Engineer,8.89,Drawing
+417,Male,3,ECE,Signals & Systems,Signal Processing,7.04,Gaming
+418,Female,3,ECE,Signals & Systems,VLSI Engineer,7.37,Gaming
+419,Female,2,IT,Cybersecurity,Data Analyst,8.17,Music
+420,Male,3,IT,DBMS,Network Engineer,7.46,Photography
+421,Male,2,CSE,DBMS,Full Stack Developer,8.6,Drawing
+422,Male,1,AI&ML,Statistics,NLP Engineer,8.49,Drawing
+423,Female,2,CSE,Algorithms,Full Stack Developer,5.75,Gaming
+424,Male,3,IT,Web Development,Network Engineer,7.44,Reading
+425,Female,1,ECE,VLSI,VLSI Engineer,7.89,Coding
+426,Male,1,ECE,Digital Electronics,Embedded Systems Engineer,7.52,Sports
+427,Male,2,CSE,Data Structures,Data Scientist,8.3,Music
+428,Male,4,IT,Cybersecurity,Cybersecurity Analyst,6.56,Gaming
+429,Female,3,IT,DBMS,Cybersecurity Analyst,7.26,Gaming
+430,Female,4,ECE,VLSI,Communication Engineer,7.34,Reading
+431,Male,2,CSE,Operating Systems,Data Scientist,8.47,Drawing
+432,Female,2,CSE,Algorithms,Software Engineer,9.39,Reading
+433,Female,2,CSE,Machine Learning,DevOps Engineer,8.52,Travelling
+434,Female,3,ECE,VLSI,Communication Engineer,7.55,Gaming
+435,Male,4,CSE,Data Structures,Data Scientist,6.93,Reading
+436,Male,2,ECE,Signals & Systems,Hardware Engineer,7.36,Drawing
+437,Male,2,AI&ML,Deep Learning,ML Engineer,7.97,Coding
+438,Male,4,CSE,DBMS,Product Manager,6.75,Gaming
+439,Female,1,ECE,VLSI,Communication Engineer,6.06,Gaming
+440,Male,4,CSE,Algorithms,Data Scientist,8.17,Drawing
+441,Female,2,AI&ML,Deep Learning,Data Scientist,8.12,Reading
+442,Female,1,AI&ML,Computer Vision,Data Scientist,8.53,Coding
+443,Female,1,IT,DBMS,Network Engineer,8.13,Reading
+444,Male,1,AI&ML,Deep Learning,AI Researcher,7.94,Drawing
+445,Female,4,ECE,Communication,Hardware Engineer,7.18,Photography
+446,Male,2,ECE,Digital Electronics,Hardware Engineer,6.92,Travelling
+447,Female,4,IT,Cloud Computing,Cybersecurity Analyst,7.69,Drawing
+448,Female,2,ECE,Communication,Signal Processing,8.03,Reading
+449,Female,2,CSE,Machine Learning,Product Manager,7.81,Coding
+450,Female,3,AI&ML,Deep Learning,NLP Engineer,7.38,Gaming
+451,Male,2,ECE,Embedded Systems,Hardware Engineer,8.96,Coding
+452,Female,4,AI&ML,Deep Learning,NLP Engineer,8.18,Sports
+453,Male,4,AI&ML,Deep Learning,Computer Vision Engineer,7.61,Photography
+454,Male,4,CSE,Data Structures,Full Stack Developer,7.17,Music
+455,Female,1,ECE,Embedded Systems,Hardware Engineer,8.31,Photography
+456,Female,2,AI&ML,Statistics,Computer Vision Engineer,8.66,Travelling
+457,Male,4,ECE,Digital Electronics,VLSI Engineer,6.92,Drawing
+458,Male,1,CSE,Machine Learning,DevOps Engineer,7.91,Music
+459,Male,4,IT,Cybersecurity,Network Engineer,8.18,Travelling
+460,Female,1,IT,DBMS,Full Stack Developer,6.62,Photography
+461,Male,2,ECE,Embedded Systems,Communication Engineer,8.81,Gaming
+462,Male,2,IT,Cloud Computing,Cloud Engineer,6.14,Travelling
+463,Male,3,IT,,Full Stack Developer,6.25,Gaming
+464,Female,2,IT,Web Development,Cybersecurity Analyst,8.27,Music
+465,Female,1,CSE,DBMS,Software Engineer,7.47,Reading
+466,Female,3,ECE,VLSI,Communication Engineer,8.35,Sports
+467,Female,3,IT,DBMS,Full Stack Developer,7.44,Music
+468,Male,4,ECE,,Signal Processing,5.73,Music
+469,Female,3,IT,Networking,Data Analyst,7.71,Sports
+470,Male,3,AI&ML,NLP,NLP Engineer,7.43,Gaming
+471,Female,3,CSE,DBMS,Full Stack Developer,7.0,Reading
+472,Female,2,IT,Networking,Cybersecurity Analyst,7.36,Gaming
+473,Male,1,IT,Cloud Computing,Cloud Engineer,7.66,Drawing
+474,Female,3,ECE,Digital Electronics,Hardware Engineer,6.92,Gaming
+475,Male,2,CSE,Data Structures,Data Scientist,9.25,Sports
+476,Female,3,ECE,Digital Electronics,Hardware Engineer,6.91,Music
+477,Female,4,CSE,DBMS,DevOps Engineer,7.56,Reading
+478,Male,3,CSE,Machine Learning,Data Scientist,7.38,Gaming
+479,Male,2,AI&ML,Machine Learning,NLP Engineer,8.36,Gaming
+480,Female,3,CSE,Algorithms,Data Scientist,6.77,Gaming
+481,Female,2,ECE,Signals & Systems,Signal Processing,6.43,Travelling
+482,Male,3,CSE,Operating Systems,Full Stack Developer,,Music
+483,Female,3,IT,Cloud Computing,Cybersecurity Analyst,8.61,Photography
+484,Female,1,CSE,Algorithms,DevOps Engineer,8.61,Music
+485,Female,2,CSE,DBMS,Full Stack Developer,7.63,Drawing
+486,Female,2,CSE,Data Structures,Software Engineer,8.02,Sports
+487,Female,2,ECE,Digital Electronics,Embedded Systems Engineer,8.51,Reading
+488,Male,1,IT,Networking,Cloud Engineer,7.32,Coding
+489,Female,1,IT,Web Development,Network Engineer,7.82,Coding
+490,Female,3,IT,Web Development,Cybersecurity Analyst,7.85,Gaming
+491,Male,2,CSE,Data Structures,DevOps Engineer,8.09,Travelling
+492,Male,2,CSE,DBMS,Data Scientist,8.25,Photography
+493,Female,4,CSE,Data Structures,Full Stack Developer,6.42,Travelling
+494,Male,3,AI&ML,NLP,NLP Engineer,9.06,Photography
+495,Female,3,IT,Cloud Computing,Cybersecurity Analyst,7.27,Sports
+496,Female,1,CSE,Operating Systems,Software Engineer,8.98,Drawing
+497,Male,2,IT,Networking,Data Analyst,7.88,Drawing
+498,Female,2,IT,DBMS,Network Engineer,8.36,Reading
+499,Male,1,ECE,Digital Electronics,Hardware Engineer,7.52,Sports
+500,Male,2,CSE,,Full Stack Developer,6.26,Drawing
+9,Male,3,ECE,Signals & Systems,Communication Engineer,7.7,Photography
+225,Male,1,CSE,Machine Learning,Product Manager,7.05,Travelling
+71,Male,3,IT,Networking,Cloud Engineer,6.98,Sports
+477,Female,4,CSE,DBMS,DevOps Engineer,7.56,Reading
+406,Female,2,ECE,VLSI,Communication Engineer,7.8,Music
