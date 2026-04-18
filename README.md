@@ -2,114 +2,113 @@
 
 ## 📌 Project Overview
 
-This project analyzes student data to uncover patterns in **career goals, favorite subjects, CGPA trends, and hobbies**.
-It uses **Exploratory Data Analysis (EDA)** and basic **Machine Learning** to generate insights.
+This project analyzes student data to uncover patterns in **career goals, favorite subjects, CGPA trends, and hobbies**.  
+It uses **Exploratory Data Analysis (EDA)** and a basic **Machine Learning model** to generate insights and predictions.
 
 ---
 
 ## 📊 Dataset
 
-* Contains data of ~500 students
-* Features:
-
-  * Student ID
-  * Gender
-  * Year (1–4)
-  * Branch (CSE, ECE, AI&ML, IT)
-  * Favorite Subject
-  * Career Goal
-  * Hobby
-  * CGPA
+- Contains data of ~500 students  
+- Features include:
+  - Student ID
+  - Gender
+  - Year of Study (1–4)
+  - Branch (CSE, ECE, AI&ML, IT)
+  - Favorite Subject
+  - Career Goal
+  - Hobby
+  - CGPA
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Jupyter Notebook
+- Python 🐍  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
 
 ---
 
-## 📈 Key Features
+## 📈 Project Workflow
 
-* Data Cleaning & Preprocessing
-* CGPA Distribution Analysis
-* Career Goal Analysis
-* Subject Preference Trends
-* 📊 Career Goal vs CGPA (Boxplot)
-* 🔥 Branch vs Subject Heatmap
-* 📌 Top 3 Trends Summary
-* 📉 Correlation Heatmap
-* 🤖 Basic ML Model (Predict CGPA)
+1. Data Collection (CSV dataset)
+2. Data Cleaning & Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Data Visualization
+5. Feature Relationship Analysis
+6. Machine Learning Model (Regression)
+7. Performance Evaluation
 
 ---
 
-## 📊 Key Insights
+## 📊 Key Visualizations
 
-* Most students prefer careers like **Software Engineer / Data Scientist**
-* Popular subjects include **Machine Learning, Data Structures**
-* Some branches show higher average CGPA trends
-* Career aspirations slightly correlate with academic performance
+- CGPA Distribution
+- Career Goal Distribution
+- Subject Preference Trends
+- Career vs CGPA (Boxplot)
+- Branch vs Subject Heatmap
+- Gender Distribution by Branch
+- Correlation Heatmap
+- Top Trend Analysis
+- Actual vs Predicted CGPA
 
 ---
 
-## 🤖 Machine Learning
+## 🔍 Key Insights
 
-* Model: Linear Regression
-* Metrics:
+- Most students prefer careers like **Software Engineer** and **Data Scientist**
+- Popular subjects include **Machine Learning** and **Data Structures**
+- Certain branches show higher average CGPA trends
+- Academic performance has mild correlation with career aspirations
 
-  * R² Score: Moderate performance
-  * MAE: Low error
+---
+
+## 🤖 Machine Learning Model
+
+- Model Used: Linear Regression  
+- Task: Predict CGPA based on features  
+- Evaluation:
+  - R² Score: Moderate performance
+  - Mean Absolute Error: Low error range
 
 ---
 
 ## 📁 Project Structure
-
 student_analysis_project/
 │── student_data.csv
-│── student_analysis.ipynb
+│── analysis.ipynb
+│── .gitignore
+│── README.md
 │── images/
 │ ├── 01_cgpa_distribution.png
 │ ├── 02_career_goal_distribution.png
-│ └── ...
+│ ├── 03_subject_distribution.png
+│ ├── ...
+
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run This Project
 
-1. Clone the repository
-2. Install dependencies:
-
+### 1. Clone the repository
 ```bash
-pip install pandas matplotlib seaborn scikit-learn
-```
+git clone https://github.com/pravallika856/student-analysis-project.git
 
-3. Open Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-4. Run `student_analysis.ipynb`
-
----
-
-## 📌 Future Improvements
-
-* Build interactive dashboard (Streamlit)
-* Improve ML model accuracy
-
----
-
-## 🙌 Author
-
-* Pravallika
-
----
-
-
+2. Install dependencies
+   pip install pandas numpy matplotlib seaborn scikit-learn
+3. Run Jupyter Notebook
+    jupyter notebook
+4. Open file
+    analysis.ipynb
+    
+📌 Future Improvements
+Add interactive dashboard using Streamlit
+Improve ML model accuracy using advanced algorithms
+Deploy project as a web application
+Add real-time data input system
