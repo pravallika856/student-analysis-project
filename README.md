@@ -106,9 +106,7 @@ git clone https://github.com/pravallika856/student-analysis-project.git
     jupyter notebook
 4. Open file
     analysis.ipynb
+
     
-📌 Future Improvements
-Add interactive dashboard using Streamlit
-Improve ML model accuracy using advanced algorithms
-Deploy project as a web application
-Add real-time data input system
+
+
